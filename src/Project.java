@@ -213,6 +213,7 @@ public class Project extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         card = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
 
@@ -273,7 +274,7 @@ public class Project extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 211, Short.MAX_VALUE)
+            .addGap(0, 221, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel1Layout.createSequentialGroup()
                     .addContainerGap()
@@ -297,15 +298,23 @@ public class Project extends javax.swing.JFrame {
                     .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
+        jLabel3.setText("jLabel3");
+
         javax.swing.GroupLayout cardLayout = new javax.swing.GroupLayout(card);
         card.setLayout(cardLayout);
         cardLayout.setHorizontalGroup(
             cardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 596, Short.MAX_VALUE)
+            .addGroup(cardLayout.createSequentialGroup()
+                .addGap(191, 191, 191)
+                .addComponent(jLabel3)
+                .addContainerGap(360, Short.MAX_VALUE))
         );
         cardLayout.setVerticalGroup(
             cardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 591, Short.MAX_VALUE)
+            .addGroup(cardLayout.createSequentialGroup()
+                .addGap(66, 66, 66)
+                .addComponent(jLabel3)
+                .addContainerGap(509, Short.MAX_VALUE))
         );
 
         jButton3.setText("Home");
@@ -435,6 +444,7 @@ public class Project extends javax.swing.JFrame {
     public javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     public javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     public javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel5;
     // End of variables declaration//GEN-END:variables
